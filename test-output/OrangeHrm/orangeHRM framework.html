@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>TestNG:  orangeHRM framework</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>orangeHRM framework</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 27 13:35:18 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86866 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.testCases.candidatesPageTest.test()'><b>test</b><br>Test class: com.orangehrm.testCases.candidatesPageTest<br/>
+<a href="#Output-1264191370" onClick='toggleBox("Output-1264191370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1264191370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1264191370">
+<B><font color = 'blue'>Step1 .</font></B>entered username<br/>
+<B><font color = 'blue'>Step2 .</font></B>entered password<br/>
+<B><font color = 'blue'>Step3 .</font></B>clicked on loginButton<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.orangehrm.testCases.candidatesPageTest@32910148</td></tr>
+<tr>
+<td title='com.orangehrm.testCases.LoginpageTest.loginTest()'><b>loginTest</b><br>Test class: com.orangehrm.testCases.LoginpageTest<br/>
+<a href="#Output-233309087" onClick='toggleBox("Output-233309087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-233309087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-233309087">
+Step 1:username is enter<br/>
+<B><font color = 'blue'>Step1 .</font></B>entered username<br/>
+Step 2:password is enter<br/>
+<B><font color = 'blue'>Step2 .</font></B>entered password<br/>
+Step 3:click on login button.<br/>
+<B><font color = 'blue'>Step3 .</font></B>clicked on loginButton<br/>
+<B><font color = 'blue'>Step4 .</font></B>clicked on leaveModule link<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.orangehrm.testCases.LoginpageTest@2118cddf</td></tr>
+<tr>
+<td title='com.orangehrm.testCases.LeavepageTest.leaveLink()'><b>leaveLink</b><br>Test class: com.orangehrm.testCases.LeavepageTest<br/>
+<a href="#Output-513042872" onClick='toggleBox("Output-513042872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-513042872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-513042872">
+<B><font color = 'blue'>Step1 .</font></B>entered username<br/>
+<B><font color = 'blue'>Step2 .</font></B>entered password<br/>
+<B><font color = 'blue'>Step3 .</font></B>clicked on loginButton<br/>
+<B><font color = 'blue'>Step4 .</font></B>clicked on leaveModule link<br/>
+<B><font color = 'blue'>Step5 .</font></B>clicked on leaveList link<br/>
+<B><font color = 'blue'>Step6 .</font></B>entered from Date<br/>
+<B><font color = 'blue'>Step7 .</font></B>entered to Date<br/>
+<B><font color = 'blue'>Step8 .</font></B>clicked on showLeave drop down<br/>
+<B><font color = 'blue'>Step9 .</font></B>clicked leaveType drop down<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.orangehrm.testCases.LeavepageTest@672872e1</td></tr>
+</table><p>
+</body>
+</html>
